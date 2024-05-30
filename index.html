@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    header{background-color: rgb(247, 85, 150);
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;}  
+    ul{
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;}
+    li{
+       padding: 10px;
+       margin: 10px; 
+       list-style: none;
+       font-size: 24px;
+       font-weight: bolder;}
+    li:hover{
+        color: rgb(107, 244, 119);
+        text-decoration: underline;
+        cursor: pointer;}
+    #logo{
+        width:100px;
+        height: 100px;}
+    #logo>img{
+        width: 100%;
+        height: 100%;}
+    #slider{
+        width: 100%;
+        height: 600px;
+    margin-bottom: -30px;
+}
+    #slider>img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;}
+    #about , #project-text
+    {
+        text-align:center;
+        background-color: rgb(247, 85, 150);
+        text-transform: capitalize;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+        color: rgb(16, 18, 18);}
+    #main{
+        justify-content: space-around;
+        height: 300px;
+        display: flex;
+        align-items: center;
+    }
+   #main >#left{width:400px;
+        height: 6oopx;
+        text-align: justify;
+        font-family: sans-serif;
+        color: crimson;
+
+      }
+    #main>#rigt{ width: 400px; }
+    #right > img{
+        width: 100%;
+        height: 100%;
+    }
+    #main-text{
+     width: 100%; 
+     height: 600px; 
+     display: flex;
+     justify-content: space-around;
+     background-color: rgb(161, 201, 201);
+     margin-top: -30px;
+    }
+    #project{
+        width: 250px;
+        height: 420px;
+        background-color: rgb(241, 134, 200);
+        margin: 10px;
+        text-align: justify;
+        border: 1px solid black;
+        padding: 4px;
+        font-family: sans-serif;
+        box-shadow: -webkit-box-shadow: 10px 11px 3px -2px rgba(61,194,196,0.61);
+         -moz-box-shadow: 10px 11px 3px -2px rgba(61,194,196,0.61);
+box-shadow: 10px 11px 3px -2px rgba(61,194,196,0.61); ;
+
+    }
+    #project > img{
+        width: 100%;
+        height:200px ;
+
+    }
+    #name{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        width: 400px;
+        font-weight: bold;
+        color: rgb(220, 20, 113);
+        position: absolute;
+        top: 200px;
+        right: 100px;
+        text-align: justify;
+    }
+    #name >h1{
+        font-size: 80px;
+    }
+    h1:hover{
+        color: black;
+        text-decoration: underline;
+    }
+    #footer{
+        width: 100%;
+        height: 400px;
+        margin: 20px 0px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        background-color: rgb(161, 201, 201);
+    }
+    .foot{
+        width: 300px;
+        height: 300px;
+        background-color: rgb(254, 149, 216);
+        justify-content:space-around ;
+        box-shadow: 10px 11px 3px -2px rgba(61,194,196,0.61);
+        border:1px solid black;
+    }
+    #icon{
+        color: rgb(241, 8, 8);
+        display: flex;
+        justify-content: center;
+        justify-content:space-between;
+        padding: 20px;
+    }
+    #icon >i{
+        font-size: 40px;
+        
+    }
+    </style>
+</head>
+<body>
+   <header> 
+    <div id="logo">
+        <img src="image/images (1).png" alt="">
+    </div>
+    <nav>
+        <ul>
+            <li id="item">Home</li>
+            <li id="item">About</li>
+            <li id="item">Project</li>
+            <li id="item">Contact us</li>
+        </ul>
+    </nav>
+</header>  
+<div id="slider">
+    <img src="image/new.avif" alt="">
+    <div id="name">
+    <h1 >  Fuget   <br> Bakario  
+    </h1><P>
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+Ex blanditiis magnam nihil assumenda officia quisquam laudantium ea ipsum beatae adipisci reiciendis,
+ minima consequatur tempore eum modi voluptatibus praesentium! Voluptatum, sunt?</P>
+</div>
+</div>
+<h1 id="about">ABOUT</h1>
+<div id="main">
+    <div id="left"> 
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Velit maiores ea consectetur
+        ipsam consequatur neque ex amet sequi aliquam! 
+        Numquam quo optio, deserunt consequatur minima dicta pariatur similique cum autem.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Velit maiores ea consectetur
+        ipsam consequatur neque ex amet sequi aliquam! 
+        Numquam quo optio, deserunt consequatur minima dicta pariatur similique cum autem.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia dignissimos numquam autem 
+    molestiae porro architecto minus quasi nesciunt quo unde. Hic, quod 
+    voluptatum doloribus reiciendis accusamus fuga repudiandae impedit temporibus.</p>
+    </div>
+    <div id="right"> 
+        <img src="image/images.jpg" alt="">
+    </div>
+</div>
+<h1 id="project-text">PROJECT</h1>
+<div id="main-text">
+<div id="project">
+    <img src="image/images2.jpg" alt="">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil commodi,
+     doloribus autem dolor provident minus omnis ut dolores?
+     Ut, officiis nam. Consequatur optio Nihil commodi,
+     doloribus autem dolor provident minus omnis ut dolores?
+     Ut, officiis nam. Consequatur optio    
+</div>
+<div id="project">
+    <img src="image/images2.jpg" alt="">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil commodi,
+     doloribus autem dolor provident minus omnis ut dolores?
+     Ut, officiis nam. Consequatur optio Nihil commodi,
+     doloribus autem dolor provident minus omnis ut dolores?
+     Ut, officiis nam. Consequatur optio     
+</div>
+<div id="project">
+    <img src="image/images2.jpg" alt="">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil commodi,
+     doloribus autem dolor provident minus omnis ut dolores?
+     Ut, officiis nam. Consequatur optio Nihil commodi,
+     doloribus autem dolor provident minus omnis ut dolores?
+     Ut, officiis nam. Consequatur optio    
+</div>
+<div id="project">
+    <img src="image/images2.jpg" alt="">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil commodi,
+     doloribus autem dolor provident minus omnis ut dolores?
+     Ut, officiis nam. Consequatur optio Nihil commodi,
+     doloribus autem dolor provident minus omnis ut dolores?
+     Ut, officiis nam. Consequatur optio    
+</div>
+</div>
+
+<div id="footer">
+    <div class="foot"> <h1>ABOUT</h1>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Maiores quisquam assumenda veniam dolores. Doloremque ut
+             iste aspernatur quibusdam adipisci eos suscipit eligendi expedita! 
+            Tempora dignissimos ex accusamus eos, nemo at.</P>
+    </div>
+    <div class="foot">
+        <li id="item">Home</li>
+        <li id="item">About</li>
+        <li id="item">Project</li>
+        <li id="item">Contact us</li>
+    </div>
+    <div class="foot">
+        <div id="icon">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-instalod"></i></div>
+    </div>
+</div>
+</body>
+</html>
